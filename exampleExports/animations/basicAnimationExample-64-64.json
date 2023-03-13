@@ -1,0 +1,105 @@
+{
+	"imagePath": "spriteSheets/basicAnimationExample-64-64.png",
+	"bitmapTablePath": "spriteSheets/basicAnimationExample-64-64",
+	"totalBits": 65536,
+	"width": 256,
+	"height": 256,
+	"framerate": 12,
+	"spriteDataLength": 9,
+	"spriteData": [
+		{
+			"name": "idle/player64x64_idle_000",
+			"x": 0,
+			"y": 0,
+			"width": 64,
+			"height": 64,
+			"index": 0
+		},
+		{
+			"name": "idle/player64x64_idle_002",
+			"x": 64,
+			"y": 0,
+			"width": 64,
+			"height": 64,
+			"index": 1
+		},
+		{
+			"name": "idle/player64x64_idle_004",
+			"x": 128,
+			"y": 0,
+			"width": 64,
+			"height": 64,
+			"index": 2
+		},
+		{
+			"name": "run/player64x64_run_000",
+			"x": 192,
+			"y": 0,
+			"width": 64,
+			"height": 64,
+			"index": 3
+		},
+		{
+			"name": "run/player64x64_run_002",
+			"x": 0,
+			"y": 64,
+			"width": 64,
+			"height": 64,
+			"index": 4
+		},
+		{
+			"name": "run/player64x64_run_004",
+			"x": 64,
+			"y": 64,
+			"width": 64,
+			"height": 64,
+			"index": 5
+		},
+		{
+			"name": "walk/player64x64_walk_000",
+			"x": 128,
+			"y": 64,
+			"width": 64,
+			"height": 64,
+			"index": 6
+		},
+		{
+			"name": "walk/player64x64_walk_001",
+			"x": 192,
+			"y": 64,
+			"width": 64,
+			"height": 64,
+			"index": 7
+		},
+		{
+			"name": "walk/player64x64_walk_007",
+			"x": 0,
+			"y": 128,
+			"width": 64,
+			"height": 64,
+			"index": 8
+		}
+	],
+	"animationsLength": 3,
+	"animations": [
+		{
+			"name": "idle",
+			"framesLength": 13,
+			"frames": [0,0,1,1,2,2,2,2,1,1,0,0,0]
+		},
+		{
+			"name": "run",
+			"framesLength": 13,
+			"frames": [3,3,4,4,5,5,5,5,4,4,3,3,3]
+		},
+		{
+			"name": "walk",
+			"framesLength": 13,
+			"frames": [6,7,7,7,7,6,6,8,8,8,8,6,8]
+		}
+	],
+	"texturepacker": {
+		"SmartUpdateHash": "$TexturePacker:SmartUpdate:a2ca8a009fef459504da7005f21f048c:9aee30e33cd49da6a97ab35ca884d126:f90964d62faf618fa10f7e210615de37$",
+		"app": "Created with TexturePacker (https://www.codeandweb.com/texturepacker) for MattouBatou Playdate"
+	}
+}

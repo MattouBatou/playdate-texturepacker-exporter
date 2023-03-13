@@ -1,0 +1,82 @@
+<exporter version="1.0">
+    <!-- identifier of the exporter -->
+    <name>playdate</name>
+
+    <!-- display name of the exporter for the combo box -->
+    <displayName>Playdate</displayName>
+	
+    <!-- description of the exporter -->
+    <description>Exporter for Playdate. Exports JSON. Supports spritesheets and animations</description>
+
+    <!-- exporter version -->
+    <version>3.0</version>
+	
+    <!-- currently only one file allowed - more to come with update -->
+    <files>
+        <file>
+            <!-- name of this file variable -->
+            <name>json</name>
+
+            <!-- human readable name (for GUI) -->
+            <displayName>JSON file</displayName>
+
+            <!-- file extension for the file -->
+            <fileExtension>json</fileExtension>
+
+            <!-- description what the file contains, used in tooltips in the GUI -->
+            <description>JSON file for Playdate</description>
+
+            <!-- name of the template file -->
+            <template>playdate.json</template>
+
+            <!-- create a file for each multipack sheet
+                 (optional, default is 'true') -->
+            <hasSeparateMultiPackFiles>true</hasSeparateMultiPackFiles>
+        </file>
+    </files>
+
+    <properties>
+        <property>
+            <name>framerate</name>
+            <type>string</type>
+            <displayName>Framerate</displayName>
+            <toolTip>Framerate</toolTip>
+            <default>12</default>
+        </property>
+    </properties>
+
+    <!-- target framework supports trimming -->
+    <supportsTrimming>false</supportsTrimming>
+
+    <!-- target framework supports rotated sprites -->
+    <supportsRotation>false</supportsRotation>
+
+    <!-- supports npot sizes -->
+    <supportsNPOT>false</supportsNPOT>
+
+    <!-- supports file name stripping (remove .png etc) -->
+    <supportsTrimSpriteNames>yes</supportsTrimSpriteNames>
+
+    <!-- supports texure subpath -->
+    <supportsTextureSubPath>yes</supportsTextureSubPath>
+
+    <supportsPolygonPacking>false</supportsPolygonPacking>
+
+    <supportsPivotPoint>false</supportsPivotPoint>
+
+    <supportsScale9>true</supportsScale9>
+
+    <supportsAnimations>true</supportsAnimations>
+
+    <!-- default values, applied when the exporter is activated in the UI or command line -->
+    <defaults>
+        <!-- this is currently only a subset of settings -->
+        <extrude>0</extrude>
+        <shapePadding>0</shapePadding>
+        <borderPadding>0</borderPadding>
+        <trimMode>None</trimMode>
+        <sizeConstraints>POT</sizeConstraints>
+        <writePivotPoints>false</writePivotPoints>
+    </defaults>
+
+</exporter>
